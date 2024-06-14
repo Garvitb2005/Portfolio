@@ -1,0 +1,35 @@
+.heading {
+  font-size: 50px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.box {
+  padding: 10px;
+  height: 300px;
+  width: 30%;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+.box h3 {
+  font-size: 38px;
+  font-weight: 800;
+  background: linear-gradient(270deg, #df8908 50%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.box p {
+  color: #d4d4d4;
+  font-size: 28px;
+  line-height: 40px;
+}

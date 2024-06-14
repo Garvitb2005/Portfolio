@@ -1,0 +1,53 @@
+.header {
+  background-color: black;
+  width: 100%;
+  padding: 50px 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav {
+  /* background-color: green; */
+  width: 30%;
+}
+.logo {
+  font-size: 2em;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  gap: 40px;
+}
+
+.navButton {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.navlinks li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.navButton:hover {
+  transform: scale(1.05);
+}
+
+.navlinks li img {
+  display: flex;
+  margin: auto;
+}
+
+.anchorLink {
+  text-decoration: none;
+  color: white;
+}

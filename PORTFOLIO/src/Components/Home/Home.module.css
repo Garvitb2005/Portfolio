@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.photo {
+  padding: 10px;
+  width: 20%;
+  border-radius: 50%;
+}
+
+.bigText {
+  font-size: 75px;
+  font-weight: 600px;
+}
+.aboutme {
+  text-align: center;
+}
+
+.btn {
+  padding: 25px 45px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  font-size: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn:hover {
+  border: 2px solid white;
+}
+
+.bigText span {
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
